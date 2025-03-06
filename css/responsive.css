@@ -1,0 +1,97 @@
+/* Responsive Styles */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .logo {
+        margin-bottom: 1rem;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .highlights-container {
+        gap: 1rem;
+    }
+    
+    .detail-meta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .detail-image {
+        height: 250px;
+    }
+    
+    #map {
+        height: 350px;
+    }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 480px) {
+    .navbar {
+        text-align: center;
+    }
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    .hero {
+        height: 50vh;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .filter-container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .filters {
+        flex-direction: column;
+    }
+    
+    .filter-group {
+        flex: 1 1 100%;
+    }
+    
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .detail-meta h2 {
+        font-size: 1.5rem;
+    }
+    
+    .detail-image {
+        height: 200px;
+    }
+    
+    .detail-info {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    #map {
+        height: 300px;
+    }
+    
+    #reset-filters {
+        width: 100%;
+    }
+}

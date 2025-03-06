@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "The Bangalore Cafe",
+    "area": "Indiranagar",
+    "placeType": "Cafe",
+    "foodType": "Indian",
+    "isVeg": true,
+    "priceRange": "$",
+    "address": "12th Main Road, Indiranagar, Bangalore",
+    "phone": "+91 9876543210",
+    "timings": "9:00 AM - 11:00 PM",
+    "description": "A cozy cafe serving authentic South Indian filter coffee and snacks in the heart of Indiranagar.",
+    "longDescription": "The Bangalore Cafe brings the traditional coffee house experience to the bustling Indiranagar area. Known for its authentic filter coffee, freshly made dosas, and a variety of South Indian snacks, this cafe offers a perfect spot for breakfast or an evening coffee.",
+    "features": ["Free WiFi", "Outdoor Seating", "Takeaway", "Home Delivery"],
+    "image": "img/ph-bangalorecafe.jpg",
+    "coordinates": {
+      "lat": 12.9781,
+      "lng": 77.6408
+    }
+  },
+  {
+    "id": 2,
+    "name": "Spice Garden",
+    "area": "Bommanahalli",
+    "placeType": "Restaurant",
+    "foodType": "North Indian",
+    "isVeg": false,
+    "priceRange": "$$",
+    "address": "80 Feet Road, 4th Block, Koramangala, Bangalore",
+    "phone": "+91 9876543211",
+    "timings": "11:00 AM - 11:00 PM",
+    "description": "An elegant restaurant specializing in authentic North Indian cuisine with a modern twist.",
+    "longDescription": "Spice Garden offers a royal dining experience with its authentic North Indian cuisine. The restaurant is known for its rich gravies, tandoori specialties, and biryani. The ambiance is inspired by Mughal architecture, creating a luxurious dining atmosphere.",
+    "features": ["Valet Parking", "Full Bar", "Live Music (Weekends)", "Private Dining"],
+    "image": "img/ph-spicegarden.avif",
+    "coordinates": {
+      "lat": 12.9347,
+      "lng": 77.6205
+    }
+  },
+  {
+    "id": 3,
+    "name": "Brew & Bytes",
+    "area": "Whitefield",
+    "placeType": "Cafe",
+    "foodType": "Continental",
+    "isVeg": true,
+    "priceRange": "$$",
+    "address": "ITPL Main Road, Whitefield, Bangalore",
+    "phone": "+91 9876543212",
+    "timings": "8:00 AM - 10:00 PM",
+    "description": "A tech-themed cafe offering gourmet coffee and international breakfast options popular among IT professionals.",
+    "longDescription": "Brew & Bytes is a heaven for tech enthusiasts and coffee lovers. This cafe combines great coffee with a tech-inspired ambiance. Their menu features international breakfast options, sandwiches, and pastries. The cafe is equipped with high-speed internet and power outlets at every table.",
+    "features": ["Free WiFi", "Meeting Room", "Board Games", "Book Exchange"],
+    "image": "img/ph-brewandbites.jpg",
+    "coordinates": {
+      "lat": 12.9698,
+      "lng": 77.7500
+    }
+  },
+  {
+    "id": 4,
+    "name": "Coastal Delight",
+    "area": "MG Road",
+    "placeType": "Restaurant",
+    "foodType": "Seafood",
+    "isVeg": false,
+    "priceRange": "$$$",
+    "address": "MG Road, Near Trinity Circle, Bangalore",
+    "phone": "+91 9876543213",
+    "timings": "12:00 PM - 10:30 PM",
+    "description": "Premium seafood restaurant specializing in coastal cuisines from Karnataka, Kerala, and Goa.",
+    "longDescription": "Coastal Delight brings the flavors of the Indian coastline to Bangalore. Specializing in seafood from the Arabian Sea, this restaurant offers dishes from the coastal regions of Karnataka, Kerala, and Goa. The menu changes based on the fresh catch of the day, ensuring the highest quality seafood experience.",
+    "features": ["Fresh Daily Catch", "Wine Pairing", "Chef's Tasting Menu", "Seafood Market Selection"],
+    "image": "img/ph-coasteldelight.avif",
+    "coordinates": {
+      "lat": 12.9715,
+      "lng": 77.6109
+    }
+  },
+  {
+    "id": 5,
+    "name": "Momo Magic",
+    "area": "Kammanahalli",
+    "placeType": "Food Stall",
+    "foodType": "Tibetan",
+    "isVeg": false,
+    "priceRange": "$",
+    "address": "5th Main, Kammanahalli, Bangalore",
+    "phone": "+91 9876543214",
+    "timings": "4:00 PM - 11:00 PM",
+    "description": "Popular street food stall serving authentic Tibetan momos and thukpa at affordable prices.",
+    "longDescription": "Momo Magic is a beloved street food stall known for serving the most authentic Tibetan momos in the area. Run by a family from Sikkim, this small establishment offers a variety of momos - steamed, fried, and tandoori - along with hot thukpa perfect for Bangalore's cool evenings.",
+    "features": ["Homemade Sauces", "Takeaway Only", "Cash Only"],
+    "image": "img/ph-momomagic.jpg",
+    "coordinates": {
+      "lat": 13.0212,
+      "lng": 77.6405
+    }
+  },
+  {
+    "id": 6,
+    "name": "Brew Haven",
+    "area": "JP Nagar",
+    "placeType": "Brewpub",
+    "foodType": "Multi-cuisine",
+    "isVeg": false,
+    "priceRange": "$$",
+    "address": "15th Cross, JP Nagar 6th Phase, Bangalore",
+    "phone": "+91 9876543215",
+    "timings": "12:00 PM - 1:00 AM",
+    "description": "Trendy microbrewery offering craft beers paired with global cuisines in a spacious rooftop setting.",
+    "longDescription": "Brew Haven is among Bangalore's most popular microbreweries, offering six different craft beers brewed on-site. The spacious rooftop setting provides a perfect ambiance for evenings, while their menu offers a selection of global cuisines designed to pair well with their craft beers. They frequently host live music events and brewery tours.",
+    "features": ["Craft Beer", "Rooftop Seating", "Live Music", "Brewery Tours"],
+    "image": "img/ph-brewhaven.webp",
+    "coordinates": {
+      "lat": 12.9077,
+      "lng": 77.5922
+    }
+  },
+  {
+    "id": 7,
+    "name": "South Thali House",
+    "area": "Jayanagar",
+    "placeType": "Restaurant",
+    "foodType": "South Indian",
+    "isVeg": true,
+    "priceRange": "$",
+    "address": "30th Cross, 4th Block, Jayanagar, Bangalore",
+    "phone": "+91 9876543216",
+    "timings": "7:30 AM - 10:30 PM",
+    "description": "Traditional restaurant serving authentic South Indian thalis on banana leaves with unlimited refills.",
+    "longDescription": "South Thali House is a traditional establishment that has been serving authentic South Indian meals for over 25 years. Known for its banana leaf thalis with unlimited refills, this restaurant offers a rotating menu based on seasonal produce. The thali includes a variety of curries, rice, sambar, rasam, and traditional desserts.",
+    "features": ["Unlimited Refills", "Traditional Seating", "Family Friendly", "Special Festival Menus"],
+    "image": "img/ph-southhouse.jpg",
+    "coordinates": {
+      "lat": 12.9255,
+      "lng": 77.5935
+    }
+  },
+  {
+    "id": 8,
+    "name": "Pizza Studio",
+    "area": "Marathahalli",
+    "placeType": "Pizzeria",
+    "foodType": "Italian",
+    "isVeg": false,
+    "priceRange": "$$",
+    "address": "Outer Ring Road, Marathahalli, Bangalore",
+    "phone": "+91 9876543217",
+    "timings": "11:00 AM - 11:00 PM",
+    "description": "Create-your-own pizza joint with artisanal toppings and wood-fired ovens popular among young professionals.",
+    "longDescription": "Pizza Studio takes the pizza experience to a new level by allowing customers to create their own masterpieces. With over 30 toppings, 5 types of crusts, and 8 different sauces to choose from, the possibilities are endless. The pizzas are cooked in traditional wood-fired ovens, giving them an authentic Italian taste with a modern twist.",
+    "features": ["Create Your Own Pizza", "Wood-Fired Oven", "Gluten-Free Options", "Craft Sodas"],
+    "image": "img/ph-pizzastudio.jpg",
+    "coordinates": {
+      "lat": 12.9591,
+      "lng": 77.6974
+    }
+  },
+  {
+    "id": 9,
+    "name": "Beijing Bites",
+    "area": "HSR Layout",
+    "placeType": "Restaurant",
+    "foodType": "Chinese",
+    "isVeg": false,
+    "priceRange": "$$",
+    "address": "27th Main, Sector 2, HSR Layout, Bangalore",
+    "phone": "+91 9876543218",
+    "timings": "11:30 AM - 10:30 PM",
+    "description": "Authentic Chinese restaurant with chefs from Sichuan province specializing in hot pot and dim sum.",
+    "longDescription": "Beijing Bites offers an authentic Chinese dining experience with chefs brought in from the Sichuan province of China. Their specialties include traditional hot pot where you can cook your own ingredients in a flavorful broth, and handmade dim sum prepared fresh daily. The restaurant's decor features traditional Chinese elements creating an immersive dining experience.",
+    "features": ["Hot Pot", "Dim Sum Cart", "Private Dining Rooms", "Tea Ceremony"],
+    "image": "img/ph-beijingbites.jpg",
+    "coordinates": {
+      "lat": 12.9116,
+      "lng": 77.6474
+    }
+  },
+  {
+    "id": 10,
+    "name": "Dosa Planet",
+    "area": "Malleshwaram",
+    "placeType": "Fast Food",
+    "foodType": "South Indian",
+    "isVeg": true,
+    "priceRange": "$",
+    "address": "8th Cross, Malleshwaram, Bangalore",
+    "phone": "+91 9876543219",
+    "timings": "7:00 AM - 9:30 PM",
+    "description": "Fast-paced eatery serving over 100 varieties of dosas with innovative fillings and chutneys.",
+    "longDescription": "Dosa Planet has revolutionized the traditional South Indian dosa by offering over 100 varieties with innovative fillings and chutneys. From the classic masala dosa to modern fusion creations like chocolate dosa and pizza dosa, there's something for everyone. Despite the innovations, they maintain traditional cooking methods using stone grinders for the batter and cast iron pans for cooking.",
+    "features": ["100+ Dosa Varieties", "Quick Service", "Open Kitchen", "Special Kids Menu"],
+    "image": "img/ph-dosaplanet.jpg",
+    "coordinates": {
+      "lat": 13.0085,
+      "lng": 77.5705
+    }
+  }
+]
