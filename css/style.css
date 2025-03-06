@@ -19,7 +19,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--dark-color);
-    background-color: rgba(211, 171, 156, 0.459);
+    background-color: rgba(181, 168, 165, 0.288);
 }
 
 a {
@@ -51,7 +51,7 @@ header {
     padding: 1rem 2rem;
     max-width: 100%;
     margin: 0 auto;
-    background-color: rgba(211, 171, 156, 0.300);
+    background-color: rgba(181, 168, 165, 0.288);
 }
 
 .logo h1 {
