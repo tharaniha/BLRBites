@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Places | Bangalore Food Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>BLR Food Guide</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="places.html" class="active">Food Places</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="filter-container">
+        <h2>Find Your Perfect Food Spot</h2>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search food places...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <label for="area-filter">Area</label>
+                <select id="area-filter">
+                    <option value="">All Areas</option>
+                    <!-- Will be populated from JS -->
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="food-type-filter">Type of Food</label>
+                <select id="food-type-filter">
+                    <option value="">All Food Types</option>
+                    <!-- Will be populated from JS -->
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="place-type-filter">Type of Place</label>
+                <select id="place-type-filter">
+                    <option value="">All Place Types</option>
+                    <!-- Will be populated from JS -->
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="price-filter">Price Range</label>
+                <select id="price-filter">
+                    <option value="">All Price Ranges</option>
+                    <option value="$">$ (Budget)</option>
+                    <option value="$$">$$ (Moderate)</option>
+                    <option value="$$$">$$$ (Expensive)</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label>Food Preference</label>
+                <div class="radio-group">
+                    <input type="radio" id="all-food" name="food-preference" value="" checked>
+                    <label for="all-food">All</label>
+                    
+                    <input type="radio" id="veg-only" name="food-preference" value="veg">
+                    <label for="veg-only">Veg Only</label>
+                    
+                    <input type="radio" id="non-veg" name="food-preference" value="non-veg">
+                    <label for="non-veg">Non-Veg</label>
+                </div>
+            </div>
+            
+            <button id="reset-filters" class="btn-secondary">Reset Filters</button>
+        </div>
+    </section>
+
+    <section class="places-container">
+        <div id="places-list" class="places-grid">
+            <!-- Will be populated from JS -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BLR Bites </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
